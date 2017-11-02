@@ -1,7 +1,44 @@
 body {
     background-color: #adadad;
-    background-image: url("images/background.png")
-}
-body {
+    background-image: url("images/background.png");
+    background-size: contain;
     color: #adadad;
+    background-repeat: none;
+    /* width: 880px; */
+}
+ /* sidebar styling */
+ .contact {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+.icon {
+     display: inline;
+ }
+ a img {
+     width: 60px;
+ }
+ h2 {
+    width: 100%;
+ }
+ .col-lg-4{
+    border-style: inset;
+    border-color: #000000;
+    border-width: 1px;
+    background-color: #312f2f;
+}
+/* Panel settings */
+.panel {
+    background-color: #312f2f;
+    border-color: #000000;
+    width: 70%;
+}
+.col-lg-8 {
+    border-style: solid;
+    border-color: #000000;
+}
+
+.col-lg-12 {
+    border-style: solid;
+    border-color: #000000;
 }
