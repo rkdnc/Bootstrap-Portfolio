@@ -1,16 +1,30 @@
+/* General Styling */
 body {
     background-color: #adadad;
     background-image: url("images/background.png");
     background-size: contain;
     color: #adadad;
     background-repeat: none;
-    /* width: 880px; */
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1, h2 {
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-left-color: #ffffff;
+    border-bottom-style: #ffffff;
+    border-bottom-width: 1px;
+    border-left-width: 5px;
+    padding: 5px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+.fa-fire {
+    color: rgb(192, 95, 30);
 }
  /* sidebar styling */
- .contact {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
+ .contactPanel {
+     width: 310px;
+     padding: 10px;
+     text-align: center;
  }
 .icon {
      display: inline;
@@ -18,10 +32,16 @@ body {
  a img {
      width: 60px;
  }
- h2 {
-    width: 100%;
- }
- .col-lg-4{
+.btn-default {
+    background-color: #312f2f;
+    color: #ffffff;
+    border-color: #312f2f;
+}
+.btn-default:hover {
+    background-color: #9b9797;
+}
+
+.col-lg-4{
     border-style: inset;
     border-color: #000000;
     border-width: 1px;
@@ -31,14 +51,42 @@ body {
 .panel {
     background-color: #312f2f;
     border-color: #000000;
-    width: 70%;
+    border-style: round;
+    width: 870px;
+    padding: 15px;
+    margin: 5px;
+    font-size: 24px;
 }
-.col-lg-8 {
+/* Blockquote settings */
+blockquote {
+    border-style: solid;
+    border-color: #eeeeee;
+    background-color: #eeeeee;
+    opacity: 0.5;
+    color: #000000;
+    font-size: 24px;
+}
+/* Navbar Styling */
+nav {
+    font-size: 16px;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.navbar-right {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Portolio settings */
+.portfolio {
+    background-color: #312f2f;
+    padding: 15px;
     border-style: solid;
     border-color: #000000;
+    border-width: 1px;
 }
-
-.col-lg-12 {
-    border-style: solid;
-    border-color: #000000;
+img {
+    padding: 15px;
 }
